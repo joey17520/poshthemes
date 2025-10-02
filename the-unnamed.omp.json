@@ -65,14 +65,8 @@
             "fetch_version": true
           },
           "style": "plain",
-          "template": "<#F3EFF5>via</> \ue781 {{ .Full }} ",
+          "template": "<#F3EFF5>via</> \ued0d {{ .Full }} ",
           "type": "node"
-        },
-        {
-          "foreground": "#FE4A49",
-          "style": "plain",
-          "template": "<#F3EFF5>and</> \ue71e {{.Full}} ",
-          "type": "npm"
         },
         {
           "foreground": "#ce092f",
@@ -89,8 +83,17 @@
             "fetch_version": true
           },
           "style": "plain",
-          "template": "<#F3EFF5>via</> \ue77f {{ .Full }} ",
+          "template": "<#F3EFF5>via</> \udb82\udeae {{ .Full }} ",
           "type": "dotnet"
+        },
+        {
+          "foreground": "#06aad5",
+          "properties": {
+            "fetch_version": true
+          },
+          "style": "plain",
+          "template": "<#F3EFF5>via</> \ue7dd {{ .Full }} ",
+          "type": "flutter"
         }
       ],
       "type": "prompt"
