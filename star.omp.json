@@ -46,7 +46,7 @@
             "fetch_version": true
           },
           "style": "plain",
-          "template": "<#F3EFF5>via</> \ue235 {{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}",
+          "template": "<#F3EFF5>via</> \ue235 {{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }} ",
           "type": "python"
         },
         {
@@ -84,15 +84,6 @@
           "style": "plain",
           "template": "<#F3EFF5>via</> \udb82\udeae {{ .Full }} ",
           "type": "dotnet"
-        },
-        {
-          "foreground": "#06aad5",
-          "properties": {
-            "fetch_version": true
-          },
-          "style": "plain",
-          "template": "<#F3EFF5>via</> \ue7dd {{ .Full }} ",
-          "type": "flutter"
         }
       ],
       "type": "prompt"
